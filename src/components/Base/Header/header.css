@@ -1,0 +1,35 @@
+header.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 31;
+}
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5.469vw;
+}
+.right-navigation {
+  display: flex;
+  align-items: center;
+}
+ul.list-unstyled.main-menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.main-menu a {
+  position: relative;
+  display: block;
+  padding: 1.5vw 0;
+  font-size: 1.25vw;
+  line-height: 1.63;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 1.563vw;
+}
+a.menu-btn {
+  padding: 1.5vw 0;
+  margin-left: 3.906vw;
+}
